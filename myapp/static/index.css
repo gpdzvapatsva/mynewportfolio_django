@@ -11,3 +11,19 @@ h1 {
     margin-top: 20px;          /* Adds space above the heading */
     margin-bottom: 20px;       /* Adds space below the heading */
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
